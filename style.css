@@ -1,0 +1,16 @@
+#title{
+	color:purple;
+}
+#lists{
+	display: flex;
+	gap: 1rem;
+}
+
+.dots{
+	display: inline-flex;
+}
+.photos{
+	height: auto;
+	width: 80px;
+	display: inline;
+}
