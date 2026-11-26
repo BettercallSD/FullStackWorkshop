@@ -10,12 +10,13 @@
 <body>
 	<header>
 		<nav>
-			<h1 id="title">Courseguru</h1>
+			<h1><a href="index.html"id="logo">Courseguru</a></h1>
+
 			<ul id="lists">
-				<li class="dots"><a href="">Enrolled Courses</a></li>
-				<li class="dots"><a href="">Available Courses</a></li>
-				<li class="dots"> <a href="">Browse Courses</a></li>
-				<li class="dots"><a href="">Tutors</a></li>
+				<li><a href="#courses">Enrolled Courses</a></li>
+				<li><a href="#resources">Available Courses</a></li>
+				<li> <a href="#dashboard">My Dashboard</a></li>
+				<li><a href="tutors.html">Tutors</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -23,31 +24,63 @@
 		<section id="courses">
 			<article>
 				<h3>Fullstack</h3>
+				<figure class="photos">
+				<video src="tutorials.mp4" controls poster="thumbnail.jpg">
+  Your browser does not support the video tag.
+</video>   
+			</figure>
+			
 				<p> A full-stack developer is a software engineer proficient in both the front-end (client-side user interface) and back-end (server-side logic and database) of web applications.</p>
 
-			<figure class="photos">
-				<img src="fullstacv.png"alt="Trulli" style="width:100%">
-  <figcaption>Fig.1 - fullstack.</figcaption>
-			</figure>
 			</article>
 			<article>
 				<h3>Machine Learning</h3>
+				<figure class="photos">
+				<img src="ml.jpg"alt="Machine Learning">
+				<figcaption>Fig.2 - Machine-Learning</figcaption>
+			</figure>
 				<p>Very in demand, but only selective people excel at this subject</p>
 
 			</article>
 		</section>
-		<section>
-		</section>
-		</main>
-		<aside>
-			
-		</aside>
-		<footer>
-			Contact: 96621460
-			Location: Kalopul, Kathmandu
-		</footer>
-	
+		<section id="resources">
+			<h2>Learning Resources</h2>
+			<audio src="lecture.mp3"controls>
+			your browser does not support the audio</audio>
 
+			<p>Explore additional resources to improve your knowledge</p>
+
+			<article>
+				<h3>Video Tutorial</h3>
+				<p>Learn programming through video lessons. Provided step by step for your easier learning</p>
+			</article>
+
+			<article>
+				<h3>Practical Exercises</h3>
+				<p>Improve your programming skills by solving practical problems</p>
+				<a href="https://www.codynn.com/challenges/bundles">Start Practicing</a>
+			</article>
+		</section>
+		
+		<aside id="dashboard">
+			<h2>Student Dashboard</h2>
+			<section>
+				<h3>My Progress</h3>
+				<p>Full Stack Development - 55%</p>
+				<p>Machine Learning - 30% </p>
+			</section>
+			<section>
+				<h3>Announcements</h3>
+				<p>New learning materials are now available!!!</p>
+			</section>
+		</aside>
+		
+
+</main>
+<footer>
+			<p>Contact: 96621460</p>
+			<p>Location: Kalopul, Kathmandu</p>
+		</footer>
 
 </body>
 </html>
